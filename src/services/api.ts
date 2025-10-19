@@ -4,7 +4,7 @@ let baseURL = "";
 const protocol = window.location.protocol;
 
 if (protocol === "https:") {
-  baseURL = "http://172.28.48.1:5000/api";
+  baseURL = "https://final-backend-production-99a6.up.railway.app/api";
 } else if (protocol === "http:") {
   baseURL = "http://localhost:5000/api";
 }
