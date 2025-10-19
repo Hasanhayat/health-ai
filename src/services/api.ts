@@ -4,7 +4,7 @@ let baseURL = "";
 const protocol = window.location.protocol;
 
 if (protocol === "https:") {
-  baseURL = "http://172.28.48.1:5000";
+  baseURL = "http://172.28.48.1:5000/api";
 } else if (protocol === "http:") {
   baseURL = "http://localhost:5000/api";
 }
