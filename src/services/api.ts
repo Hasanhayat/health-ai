@@ -4,7 +4,7 @@ let baseURL = "";
 const protocol = window.location.protocol;
 
 if (protocol === "https:") {
-  baseURL = "https://heathcare-plus-backend.vercel.app/api";
+  baseURL = "http://localhost:5000/api";
 } else if (protocol === "http:") {
   baseURL = "http://localhost:5000/api";
 }
